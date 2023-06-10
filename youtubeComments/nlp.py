@@ -10,6 +10,11 @@ from sklearn.decomposition import LatentDirichletAllocation    # explains a set 
 path = '/content/youtube_comments_scrapped.csv'
 
 # Reading data
+
+'''df:pd.DataFrame  = utils.get_collection_as_dataframe(
+                database_name=self.data_ingestion_config.database_name, 
+                collection_name=self.data_ingestion_config.collection_name)'''
+
 df = pd.read_csv(path)
 
 nltk.download('stopwords')     # used to eliminate unimportant words (commonly used words)

@@ -10,4 +10,3 @@ nltk
 scikit-learn
 flask
 Flask-Cors
--e .

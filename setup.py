@@ -17,7 +17,7 @@ def get_requirements()->List[str]:    # Provides information to developer that t
 
 
 setup(
-    name = "youtube_comments",
+    name = "youtubeComments",
     version = "0.0.1",
     author = "SaiSubhasish",
     author_email = "saisubhasishrout777@gmail.com",
