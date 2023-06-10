@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 class Data_scraper:
     @staticmethod
-    def scraper(link, path):
+    def scraper(link, path, driver_path):
         """
         Description: This function scraps comments from youtube videos and stores it to a csv file
         =========================================================
@@ -18,7 +18,6 @@ class Data_scraper:
         =========================================================
         saves data to a csv file
         """
-        driver_path = f"{path}\selenium\chromedriver.exe"
         
         try:
             # Creating a session and loading the page

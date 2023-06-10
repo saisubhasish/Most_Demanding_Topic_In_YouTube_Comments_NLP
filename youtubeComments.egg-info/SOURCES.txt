@@ -1,9 +1,11 @@
 README.md
 setup.py
 etl/__init__.py
+etl/data_dump.py
 etl/scrapper.py
 selenium/__init__.py
 youtubeComments/__init__.py
+youtubeComments/config.py
 youtubeComments/exception.py
 youtubeComments/logger.py
 youtubeComments/nlp.py
