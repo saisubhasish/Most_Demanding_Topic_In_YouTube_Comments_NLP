@@ -10,7 +10,13 @@ class Data_scraper:
     @staticmethod
     def scraper(link, path):
         """
-        This function will scrap the comments from a youtube video and store it to a csv file
+        Description: This function scraps comments from youtube videos and stores it to a csv file
+        =========================================================
+        Params:
+        link: link of the video
+        path: path where file get saved
+        =========================================================
+        saves data to a csv file
         """
         driver_path = f"{path}\selenium\chromedriver.exe"
         
@@ -72,7 +78,3 @@ class Data_scraper:
         # Cloding driver
         driver.quit()
             
-link = 'https://www.youtube.com/watch?v=fM4qTMfCoak&list=PLZoTAELRMXVMdJ5sqbCK2LiM0HhQVWNzm'
-path = 'D:/FSDS-iNeuron/10.Projects-DS//YouTube_Comments/'
-
-Data_scraper.scraper(link, path)
