@@ -3,6 +3,8 @@ import time
 import pandas as pd
 from selenium import webdriver
 from bs4 import BeautifulSoup
+from youtubeComments.exception import YoutubeCommentsException
+from youtubeComments.logger import logging
 
 # Scrapper code 
 
@@ -21,11 +23,12 @@ class Data_scraper:
         
         try:
             # Creating a session and loading the page
+            logging.info('Creating a session and loading the page')
             driver = webdriver.Chrome(driver_path)
             driver.get(link)
 
         except Exception as e:
-            raise e
+            raise YoutubeCommentsException(e, sys)
             
         # Maximizing window
         driver.maximize_window()
@@ -56,7 +59,7 @@ class Data_scraper:
             # Getting all the comments with web elements
             comment_sections = soup.find_all("yt-formatted-string", class_="style-scope ytd-comment-renderer")
         except Exception as e:
-            print(e)
+            raise YoutubeCommentsException(e, sys)
             
         # Extract the comments
         # Removing the web elements
