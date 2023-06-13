@@ -1,27 +1,25 @@
 ,0
-0,"And, could you also put up some material on how Hidden Markov Models are used in NLP? have studied them way back in 2011 during my Master's degree in the pre Deep Learning era. But don't have much practical exposure to NLP? And does acoustic model for phonemes recognition come more under speech Recognition? Could you also provide a short description on that?"
-1,"HI sir ,thanks for sharing your knowledge it really helps me alot sometime, i have a question. 
-if LSTM has problem , why cant we directly use bidirectional LSTM instead of LSTM , can we skip LSTM and directly apply Bidirectional LSTM ?"
-2,"i love how you spelling it, if we could build such a pyramid for other techs, life of the learners would be much easier as it s enough to keep in mind this intuitive/organic scale of complexity."
-3,I just love how you keep reassuring us in the video that you got us covered from bottom to top. This is super helpful. Thank you
-4,"At 13:00 you had mentioned about weakness of LSTM. If we take the use case of Statistical Machine Translation and I have 2 sentences in my training set :
-1) ""I cross the river bank to reach primary school""
-2) ""I need to go to the bank to urgently withdraw funds""
-Both are longish sentences. And if after conversion to Vector Representation, the word ""Bank"" has a different meaning in sentence 1) where we need to look at previous word river, while in sentence 2) we need to look ahead (right context).
-Is this the issue with plain LSTM that Bidirectional LSTM is able to overcome?"
-5,"Can you please guide me on learning NLP with R, I guess most of the libraries mentioned are python based.  I am not sure if these libraries can also be used in R language as well - Please advise. Thanks"
-6,"Sir, will we be able to do text analytics and sentimental analysis after watching this playlist?"
-7,I think anyone who is in nlp has eventually followed this kind of roadmap even though the order may be a bit different.
-8,i come across with all these concepts in my organisation but its hard me to working on question and answering using tensorflow  or pytorch but i am aware of rasa core n rasa nlu where it is easy to generate question and answers. krish why dont you make a video on question and answering using tensorflow
-9,"Great Sir, Big fan of yours.  Thanks a lot for detailed course.  Hats off."
-10,"Hello Sir I have been following you and have currently completed your Machine Learning playlist. So can you tell me that how much prior knowledge we need to have to start with this course, do we need deep learning, if it is so then please tell me do I need advance deep learning like Boltzmann Machine, Autoencoders, GANs and etc or is it okay to start now."
-11,Have you ever used spacy when it comes to NLP? If yes: Would be lovely if you could cover how you used it...Thanks for your work
-12,Can you please do the video on unstructured text to ontology using NLP. Thanks
-13,He is that teacher which our education system genuinely needs . He's self taught hence that is visible in his lectures. Absolutely amazing !!
-14,"If I need to cover NLP, is this playlist suffix or I need to refer to deep learning playlist also?"
-15,"It  was really helpful. Can u make  videos on Grammer Correction using  Rule based methord, Language Models &  classifiers.
-its really hard to understand it otherwise"
-16,This is really a gem
-17,Thanks for this wonderful NLP content
-18,"I just can't thank you enough, words would not be able to compensate for your greatness !"
-19,"Sir I am following this playlist but I am stuck in between because I am not familier with ML,DL so I want to know the important topics of ML,DL which are using in NLP so I will learn only those topics otherwise the whole syllabus of ML,DL will takes too much time , please tell me sir what you prefer to me.?"
+0,Thank you sir . Now I know the differences between generative and discriminative Ai in Deep learning. Next level explanation. Love you
+1,hey krish very informative video but this type of content is available all over the internet today as an ML engineer please explain me my role after this revolution in AI plus also help people like me by teaching us how to create our own LLM's and apply reinforcement learning on it to make a smaller version of chatgpt
+2,"Thank you sir, waiting for LLM"
+3,"Sir correct me if I wrong
+In video you mentioned Chat GPT and Bard are LLM models but as per my understanding GPT4 and PaLM are the LLM models where as there tools work underlying that models.
+Thanks"
+4,"We all are waiting for the playlist covering Gen AI, LLM"
+5,Very informative video..... thank you so much for this kind of video....very helpful
+6,"this is the master's course, 100x more clear and effective than the same generative AI introduction course by google."
+7,"Extremely eager for the playlist. I want to build my own LLM model on the data i have, I tried using Llamaindex for this. But didn't give much results. Please tell us how to crack this and create our own chatgpt with our own data"
+8,Very informative as always
+9,Well explained. Waiting for more in this
+10,Thank you Krish. One request. Can you make tutorial video about langchain?
+11,"Thanks for sharing, eagerly waiting this video, easy to understand from your channel."
+12,"Outstanding explanation never seen such great teacher
+Thank you very much dear Krish.
+Your innocent student from Pakistan"
+13,Well explained Tysm Krish
+14,Great work sir ...keep uploading such vedioes    thank you
+15,Finally! Was waiting for it from long time!
+16,Waiting for this playlist thank you krish
+17,Egarly waiting for this. Thank you so much sir
+18,"hey sir, is NLP  a part of generative AI ?"
+19,Amazing content
