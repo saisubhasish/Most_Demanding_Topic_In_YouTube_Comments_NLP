@@ -20,3 +20,4 @@ mongo_client = pymongo.MongoClient(env_var.mongo_db_url)
 driver_path = env_var.driver_file_path
 DATABASE_NAME="youtubeComments"
 COLLECTION_NAME="comments"
+file_path = r'D:\\FSDS-iNeuron\\10.Projects-DS\\Most_Demanding_Topic_In_YouTube_Comments_NLP\\youtube_comments_scrapped.csv'
